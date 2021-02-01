@@ -10,7 +10,6 @@ public class Greeting {
 
         System.out.println(idea);
         System.out.println(idea + " But I am a newbie.");
-        System.out.println(idea + year);
         System.out.println(ideaPlusYear);
         System.out.println(ideaPlusSpacePlusYear);
     }
