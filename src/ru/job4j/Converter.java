@@ -16,20 +16,20 @@ public class Converter {
 
     public static void main(String[] args) {
         int inEuro = 140;
-        int inDollar = 140;
+        int inDollar = 180;
         int expectedEuro = 2;
-        int expectedDollar = 2;
+        int expectedDollar = 3;
         int outEuro = Converter.rubleToEuro(inEuro);
         int outDollar = Converter.rubleToDollar(inDollar);
         boolean passedEuro = expectedEuro == outEuro;
         boolean passedDollar = expectedDollar == outDollar;
 
         int euro = Converter.rubleToEuro(140);
-        int dollar = Converter.rubleToDollar(140);
+        int dollar = Converter.rubleToDollar(180);
         System.out.println("140 rubles are " + euro + " euro.");
-        System.out.println("140 rubles are " + dollar + " dollars.");
+        System.out.println("180 rubles are " + dollar + " dollars.");
 
         System.out.println("140 rubles are 2. Test result : " + passedEuro);
-        System.out.println("140 rubles are 2. Test result : " + passedDollar);
+        System.out.println("180 rubles are 3. Test result : " + passedDollar);
     }
 }
