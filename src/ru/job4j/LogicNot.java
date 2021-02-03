@@ -23,12 +23,12 @@ public class LogicNot {
 
     //проверяет, что число нечетное И положительное
     public boolean notEvenAndPositive(int num) {
-        return !isEven(num) && num > 0;
+        return !isEven(num) && isPositive(num);
     }
 
     //проверяет, что число четное ИЛИ не положительное
     public boolean evenOrNotPositive(int num) {
-        return num % 2 == 0 || !isPositive(num);
+        return isEven(num) || !isPositive(num);
     }
 
 }
