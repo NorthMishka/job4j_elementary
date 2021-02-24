@@ -10,18 +10,18 @@ public class MaxTest {
     @Test
     public void whenMax1Plus2Then3() {
         int result = Max.max(1, 2);
-        assertThat(result, is(3));
+        assertThat(result, is(2));
     }
 
     @Test
     public void whenMax4Plus2Plus1Then7() {
         int result = Max.max(4, 2, 1);
-        assertThat(result, is(7));
+        assertThat(result, is(4));
     }
 
     @Test
     public void whenMax2Plus2Plus2Plus2Then8() {
-        int result = Max.max(2, 2, 2, 2);
-        assertThat(result, is(8));
+        int result = Max.max(8, 10, 11, 7);
+        assertThat(result, is(11));
     }
 }
