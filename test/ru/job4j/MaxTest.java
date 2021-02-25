@@ -21,7 +21,7 @@ public class MaxTest {
 
     @Test
     public void whenMax2Plus2Plus2Plus2Then8() {
-        int result = Max.max(8, 10, 11, 7);
-        assertThat(result, is(11));
+        int result = Max.max(14, 12, 11, 13);
+        assertThat(result, is(14));
     }
 }
